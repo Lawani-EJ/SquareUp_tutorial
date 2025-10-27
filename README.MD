@@ -44,3 +44,17 @@ You can view API logs:
 ![alt text](image-2.png)
 
 ![alt text](image-3.png)
+
+
+# Day 2
+- [x] The building basics with square
+The following design concepts and patterns are useful to understand as you develop applications on the Square Developer platform:
+1. Versioning in Square API's
+2. Access Tokens and Other Square Credentials
+3. Frontend and Backend Development (I like this one)
+4. General Development Concepts.
+5. Common Data Types
+6. Common Square API Patterns.
+7. Square eCommerce APIs
+8. Square API Lifecycle
+
