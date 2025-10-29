@@ -58,3 +58,25 @@ The following design concepts and patterns are useful to understand as you devel
 7. Square eCommerce APIs
 8. Square API Lifecycle
 
+# Day 3
+## Versioning in the square API:  
+Describes versioning and version-naming schemes used for the Square API and SDKs. The Square API uses a ```YYYY-MM-DD``` version-naming scheme that indicates the date the API version is released. This versioning scheme is used to control breaking changes and allows you to test newer API versions before upgrading your application. The API version applies to all Square APIs, such as the Payments API, Orders API, and Customers API.
+
+Each application registered in the Developer Console has a default API version, which you can view or change on the Credentials page for the production or Sandbox environment. The default API version is pinned to the application and used for all API requests unless overridden in the Square-Version header.
+
+The following request omits the Square-Version header, which directs Square to use the default API version:
+
+``` bash
+curl https://connect.squareup.com/v2/payments \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'Content-Type: application/json'
+```
+
+To override the default and test different API versions, explicitly specify the API version in the Square-Version header (or corresponding SDK client parameter):
+
+``` bash 
+curl https://connect.squareup.com/v2/payments \
+  -H 'Square-Version: 2024-07-17' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'Content-Type: application/json'
+```
