@@ -80,3 +80,11 @@ curl https://connect.squareup.com/v2/payments \
   -H 'Authorization: Bearer {ACCESS_TOKEN}' \
   -H 'Content-Type: application/json'
 ```
+
+# Day 4
+Access Tokens and Other Square Credentials
+Access tokens are credentials that allow applications to securely interact with Square APIs. An access token authenticates your application and authorizes access to resources in a Square account, such as customers, orders, and payments. Proper credential management and storage is critical for maintaining security.
+
+## Access Token types
+1. Personal access tokens.
+2. OAuth access tokens.
