@@ -86,5 +86,11 @@ Access Tokens and Other Square Credentials
 Access tokens are credentials that allow applications to securely interact with Square APIs. An access token authenticates your application and authorizes access to resources in a Square account, such as customers, orders, and payments. Proper credential management and storage is critical for maintaining security.
 
 ## Access Token types
-1. Personal access tokens.
-2. OAuth access tokens.
+1. Personal access tokens: Provides unrestricted Square API access to resources in a Square account. You can use your personal access token in Square API calls to perform any activity on any resource in your own Square account.
+2. OAuth access tokens: Provides authenticated and scoped Square API access to resources in a Square account. Applications use OAuth access tokens in Square API calls to access resources on behalf of account owners. When Square sellers sign up to use an application, they grant the specific permissions (scopes) that the application needs to perform some activity on their account resources.
+
+
+# Day 5
+
+
+
