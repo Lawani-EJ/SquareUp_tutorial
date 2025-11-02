@@ -100,4 +100,4 @@ Each application created in the Developer Console provides a personal access tok
 3. Get your production or Sandbox access token.
 
 
-
+![alt text](image-4.png)
