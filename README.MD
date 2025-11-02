@@ -91,6 +91,13 @@ Access tokens are credentials that allow applications to securely interact with 
 
 
 # Day 5
+## Get a personal access token
+Each application created in the Developer Console provides a personal access token for use in the production environment and a separate Sandbox access token for use in the Square Sandbox.
+
+1. Sign in to the Developer Console
+ and open the application that's calling the Square APIs. If needed, follow the steps in Get Started to create a Square account and an application.
+2. In the left pane, choose Credentials.
+3. Get your production or Sandbox access token.
 
 
 
