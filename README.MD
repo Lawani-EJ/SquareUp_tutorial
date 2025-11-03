@@ -101,3 +101,7 @@ Each application created in the Developer Console provides a personal access tok
 
 
 ![alt text](image-4.png)
+
+Guidelines that apply to protecting access tokens
+- Don't hardcode access tokens in your code
+- Don't share access tokens
