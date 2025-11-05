@@ -110,4 +110,4 @@ Guidelines that apply to protecting access tokens
 
 # Day 6
 ## Getting an OAuth access token
-The process of getting an OAuth token depends on the application type (which determines wether you use the code flow or PKCE flow) and wether the token is used production or for testing in the square sandbox during development.
+The process of getting an OAuth token depends on the application type (which determines wether you use the code flow or PKCE flow) and wether the token is used production or for testing in the square sandbox during development..
