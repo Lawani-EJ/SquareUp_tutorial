@@ -110,4 +110,28 @@ Guidelines that apply to protecting access tokens
 
 # Day 6
 ## Getting an OAuth access token
+An OAuth is a security standard that allows third-party applications to access a user's data from another service without the user having to share their password.
+
 The process of getting an OAuth token depends on the application type (which determines wether you use the code flow or PKCE flow) and wether the token is used production or for testing in the square sandbox during development..
+
+## Production type:
+In production applications start the OAuth flow by sending each seller to the square authorization page. On a succesful flow completion, square returns an OAuth access token to your application.
+The OAuth flow includes the following high level stages.
+
+1. Stage 1:
+Your application uses an authorization URL to send the seller to the square authorization page where they can sign into square and grant the permissions you requested.
+
+2. Stage 2: 
+Square uses your redirect URL to send the seller back to your application and appends a code query parameter that contains an authorization code.
+
+3. Stage 3:
+Your application calls `ObtainToken` and sends the authorization code, your application ID, and other fields. Square returns an access token and refresh token.
+
+## Sandbox type:
+Testing in sandbox lets you verify that your application can successfully access and manage resources in a Square account and gracefully handle authorization errors. There are two options for getting access tokens:
+
+1. Stimulate the OAuth Flow: 
+You can stimulate the OAuth flow in the Sandbox.
+
+2. Generate OAuth access tokens:
+If your'e not ready to add an OAuth flow. You can quickly generate the Sandbox OAuth access tokens to try calling Square API's with a specific set of permissions.
