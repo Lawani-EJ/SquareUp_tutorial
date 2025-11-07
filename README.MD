@@ -135,3 +135,12 @@ You can stimulate the OAuth flow in the Sandbox.
 
 2. Generate OAuth access tokens:
 If your'e not ready to add an OAuth flow. You can quickly generate the Sandbox OAuth access tokens to try calling Square API's with a specific set of permissions.
+
+# Day 7
+## Frontend and Backend Development
+A typical application has a frontend client and backend server
+1. Frontend: Provides a UI that displays the information, recieves the user input (using buttons, menus, and other UI elements) and interacts with the application backend
+
+2. Backend: Recieves and processes the user's input sent from the frontend, pulls the necessary data from the internal and external sources, and sends the data back to the frontend.  The backend is typically built using server-side languages and frameworks such as PHP, Java, Node.js, or Python.
+
+Square provides payment API's and SDK's that support payment processing activites from the frontend and backend.
