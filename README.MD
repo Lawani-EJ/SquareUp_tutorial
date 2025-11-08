@@ -144,3 +144,14 @@ A typical application has a frontend client and backend server
 2. Backend: Recieves and processes the user's input sent from the frontend, pulls the necessary data from the internal and external sources, and sends the data back to the frontend.  The backend is typically built using server-side languages and frameworks such as PHP, Java, Node.js, or Python.
 
 Square provides payment API's and SDK's that support payment processing activites from the frontend and backend.
+
+# Frontend
+A payment-processing flow usually starts with a buyer providing payment information in the application frontend (for example, entering card information in text boxes)
+
+Application frontends can use client-side payment API's and SDK's for payment processing activites. These libararies provide UI elements used to collect payment information for online payments or Square hardware.
+
+## Online payments 
+For online payments, the following client-side libraries are used with backend calls to the Payments API:
+
+1. Web Payments SDK - Used to process payments in web applications.
+2. In-App Payments SDK - Used to process payments in mobile seller applications that buyers install on their Android or iOS devices.
