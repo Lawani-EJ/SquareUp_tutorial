@@ -155,3 +155,12 @@ For online payments, the following client-side libraries are used with backend c
 
 1. Web Payments SDK - Used to process payments in web applications.
 2. In-App Payments SDK - Used to process payments in mobile seller applications that buyers install on their Android or iOS devices.
+
+## Payments on hardware
+For in-persons payments on Square hardware, the following client-side libraries are used to process payments end to end. No backend square API calls are required.
+
+1. Mobile Payments SDK - Used to process payments with Square Reader devices or Square Stand. Developers can embed the Mobile Payments SDK in their mobile application.
+
+2. Point of Sale API - Used to process payments with Square Reader from a developer's mobile application.Developers can embed the Point of Sale API in their mobile application, and the API acts as an application switcher. When a payment is ready to be processed, the API switches to the Square Point of Sale application and collects the payment with the Square Reader.
+
+
