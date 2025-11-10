@@ -163,4 +163,6 @@ For in-persons payments on Square hardware, the following client-side libraries 
 
 2. Point of Sale API - Used to process payments with Square Reader from a developer's mobile application.Developers can embed the Point of Sale API in their mobile application, and the API acts as an application switcher. When a payment is ready to be processed, the API switches to the Square Point of Sale application and collects the payment with the Square Reader.
 
-
+# Day 8
+# Backend
+Square API's integrate with backend development. Typically, the application backend sends API requests to Square and processes the responses. Application backends can call Square API's directly using any programming language or use a Square SDK in a supported programming language.
