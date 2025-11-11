@@ -166,3 +166,5 @@ For in-persons payments on Square hardware, the following client-side libraries 
 # Day 8
 # Backend
 Square API's integrate with backend development. Typically, the application backend sends API requests to Square and processes the responses. Application backends can call Square API's directly using any programming language or use a Square SDK in a supported programming language.
+
+Many Square API's integrate with other Square API's for basic or extended functionallity. For example, many operations require a location ID that can be retrieved using the Merchants API or locations API.
