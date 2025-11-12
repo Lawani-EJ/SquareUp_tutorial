@@ -178,3 +178,12 @@ The following are some commomly used Square API's:
 
 4. Subscription API's - Provide subscriotions services to buyers. Subscription plans are designed using the Catalog API. Subscriptions are created using the Customer ID and Location ID.
 
+# Day 9
+# General Development Concepts 
+The following conepts are useful to understand developing applications on the square developer plattform
+
+1. TLS and HTTP.
+2. Using REST API.
+3. Handling Errors.
+4. Best practices for collecting information.
+5. Language Preferances for Applications.
